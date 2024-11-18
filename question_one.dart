@@ -6,7 +6,7 @@ bool isOdd(int number) {
 }
 
 void main() {
-  print("Enter a number\n");
+  print("Enter a number");
   int? number = int.tryParse(stdin.readLineSync()!);
   if (isOdd(number!)) {
     print('The number $number is odd');
