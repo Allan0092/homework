@@ -7,7 +7,7 @@ class BankAccount {
     if (amount >= 0) {
       _balance = amount;
     } else {
-      print("balance is Snegative.");
+      print("balance is Snegative");
     }
   }
 
